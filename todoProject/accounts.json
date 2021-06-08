@@ -1,0 +1,15 @@
+{
+	"list": [
+		"account" {
+			"firstname":"John",
+			"lastname":"Smith",
+			"password":"8e56g4d221",
+			"todo": [
+			    "taskItem" { 
+					"done":"false",
+					"task":"Do the dishes"
+			    }
+			]
+		}
+	]
+}

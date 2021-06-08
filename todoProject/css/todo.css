@@ -1,0 +1,121 @@
+#appTitle {
+    margin: auto;
+    width: 300px;
+    padding-top: 125px;
+    font-size: 50pt;
+    font-weight: bold;
+}
+
+#bg {
+    background-color: black;
+    background-size: contain;
+    background-image: url("../images/clipboard-vector-flat-icon.gif");
+    background-repeat: no-repeat;
+    width: 760px;
+    height: 1000px;
+    margin: auto;
+}
+
+.list-row {
+    margin-left: 100px;
+    margin-top: 1em;
+    width: 72%;
+    height: 38px;
+    background-color: green;
+    display: none;
+}
+
+.check-mark-column {
+    padding-left: 20px;
+    width: 5%;
+    height: auto;
+    font-size: xx-large;
+    float: left;
+}
+
+.list-entry{
+    float: right;
+    width: 82%;
+    font-size: xx-large;
+    padding-left: 50px;
+}
+
+#container {
+    background-color: black;
+}
+
+#btn-container {
+    padding-top: 3em;
+    width:80%;
+    margin: auto;
+}
+
+.btn {
+    width: 240px;
+    height: 100px;
+    background-color: yellow;
+    color: black;
+    font-size: 40pt;
+    text-align: center;
+    border-radius: 15px;
+    border: 3px dashed blue;
+    float: left;
+    margin-left:20px;
+}
+
+#btn-signup {
+    display: none;
+}
+
+#btn-login {
+    display: none;
+}
+
+#tdl-entry {
+    height: 100px;
+    margin-top: 40px;
+}
+
+#btn-clear {
+    display: block;
+}
+
+#btn-enter {
+   display: block;
+}
+
+#signup-details {
+    width: auto;
+    height: 300px;
+    padding-top: 150px;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+
+.tdl-label {
+    margin-top: 15px;
+    width: 400px;
+    height: 42px;
+    line-height: 42px;
+    font-size: large;
+}
+
+.tdl-input {
+    margin-top: 0px;
+    float: right;
+    width: 250px;
+    height: 2em;
+    font-size: large;
+    align-items: center;
+}
+
+#d_agree {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#d_login-error {
+    font-size: medium;
+    color: #FF0000;
+    display: block;
+}
